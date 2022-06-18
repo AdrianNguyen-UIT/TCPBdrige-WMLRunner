@@ -1,0 +1,19 @@
+﻿<Page
+    x:Class="WMLRunner.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:WMLRunner"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <TextBlock x:Name="QuestionTextBlock" HorizontalAlignment="Left" Margin="0,0,0,719" TextWrapping="Wrap" Text="Question?" FontSize="36" LineHeight="22" TextAlignment="Center" Height="127" VerticalAlignment="Bottom" Width="1490">
+            <TextBlock.FocusVisualPrimaryBrush>
+                <AcrylicBrush/>
+            </TextBlock.FocusVisualPrimaryBrush>
+        </TextBlock>
+
+    </Grid>
+</Page>
